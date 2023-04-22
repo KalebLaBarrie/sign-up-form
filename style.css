@@ -1,0 +1,77 @@
+@font-face {
+  font-family: norsebold;
+  src: url(./fonts/Norse-Bold.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+  height: 100%;
+  display: flex;
+}
+
+.img-background {
+  background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* height: 100%; */
+  /* width: 33%; */
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.odin {
+  height: 150px;
+}
+
+.transparent-div {
+  position: relative;
+  top: 20vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  color: #fff;
+  font-family: norsebold;
+  padding: 80px;
+  font-size: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-credit {
+  color: #fff;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+}
