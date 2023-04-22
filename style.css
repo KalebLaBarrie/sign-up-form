@@ -144,6 +144,12 @@ input.password:focus {
   margin-bottom: 20px;
   width: 200px;
   cursor: pointer;
+  box-shadow: -5px 6px 16px -6px rgba(0, 0, 0, 0.75);
+  transition: transform 0.1s;
+}
+
+.btn button:focus {
+  transform: scale(1.01);
 }
 
 .btn-container span {
